@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ATool2018.github.io/corp-site/sitemap.xml
