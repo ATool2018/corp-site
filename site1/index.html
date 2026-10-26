@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebCraft — студия веб-разработки</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">WebCraft</a>
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#benefits">Преимущества</a></li>
+        <li><a href="#pricing">Тарифы</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contact">Оставить заявку</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Делаем сайты, которые <span class="accent">продают</span></h1>
+      <p class="hero-sub">Лендинги, визитки и корпоративные сайты под ключ за 7 дней</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+        <a href="#pricing" class="btn btn-outline">Смотреть тарифы</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="120">0</span>
+          <span class="stat-label">проектов</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="7">0</span>
+          <span class="stat-label">дней в среднем</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="98">0</span>
+          <span class="stat-label">% довольных</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ПРЕИМУЩЕСТВА -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <h2 class="section-title">Почему мы</h2>
+      <div class="benefits-grid">
+        <div class="benefit reveal">
+          <div class="benefit-icon">⚡</div>
+          <h3>Быстро</h3>
+          <p>Готовый сайт за 7 дней. Не тянем до последнего.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit-icon">🎯</div>
+          <h3>Под задачу</h3>
+          <p>Не шаблон ради шаблона — сайт под ваш бизнес.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit-icon">📱</div>
+          <h3>Адаптивно</h3>
+          <p>Идеально смотрится на телефоне и ПК.</p>
+        </div>
+        <div class="benefit reveal">
+          <div class="benefit-icon">🔧</div>
+          <h3>Поддержка</h3>
+          <p>Помогаем после сдачи — не бросаем.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ТАРИФЫ -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Тарифы</h2>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <h3>Визитка</h3>
+          <div class="price">5 000 ₽</div>
+          <ul class="price-features">
+            <li>1 экран</li>
+            <li>Адаптив</li>
+            <li>Форма связи</li>
+          </ul>
+          <button class="btn btn-outline btn-plan" data-plan="Визитка">Заказать</button>
+        </div>
+        <div class="price-card popular reveal">
+          <div class="popular-badge">Хит</div>
+          <h3>Лендинг</h3>
+          <div class="price">15 000 ₽</div>
+          <ul class="price-features">
+            <li>5–7 секций</li>
+            <li>Анимации</li>
+            <li>Форма с валидацией</li>
+            <li>SEO-база</li>
+          </ul>
+          <button class="btn btn-primary btn-plan" data-plan="Лендинг">Заказать</button>
+        </div>
+        <div class="price-card reveal">
+          <h3>Корпоративный</h3>
+          <div class="price">от 40 000 ₽</div>
+          <ul class="price-features">
+            <li>Много страниц</li>
+            <li>Каталог</li>
+            <li>Интеграции</li>
+          </ul>
+          <button class="btn btn-outline btn-plan" data-plan="Корпоративный">Заказать</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ОТЗЫВЫ -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <h2 class="section-title">Отзывы</h2>
+      <div class="reviews-grid">
+        <div class="review reveal">
+          <p>«Сделали лендинг за неделю, заявки пошли сразу. Очень довольна!»</p>
+          <div class="review-author">
+            <div class="review-avatar">А</div>
+            <div>
+              <strong>Анна</strong>
+              <span>владелец салона</span>
+            </div>
+          </div>
+        </div>
+        <div class="review reveal">
+          <p>«Понятно объяснили, что нужно. Сайт быстрый, на телефоне идеально.»</p>
+          <div class="review-author">
+            <div class="review-avatar">М</div>
+            <div>
+              <strong>Михаил</strong>
+              <span>мастер по ремонту</span>
+            </div>
+          </div>
+        </div>
+        <div class="review reveal">
+          <p>«Помогли с правками после сдачи без лишних вопросов. Рекомендую.»</p>
+          <div class="review-author">
+            <div class="review-avatar">О</div>
+            <div>
+              <strong>Ольга</strong>
+              <span>массажист</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФОРМА -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Оставить заявку</h2>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Иван">
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
+            <span class="form-error" id="phoneError"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="mail@example.com">
+          <span class="form-error" id="emailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="4" placeholder="Расскажите о задаче..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ФУТЕР -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>WebCraft</strong>
+        <p>Сайты, которые работают на вас</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:mail@example.com">mail@example.com</a>
+        <a href="https://t.me/username" target="_blank">Telegram</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- МОДАЛКА -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Закрыть">×</button>
+      <h3 id="modalTitle">Спасибо!</h3>
+      <p id="modalText">Мы свяжемся с вами в ближайшее время.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
